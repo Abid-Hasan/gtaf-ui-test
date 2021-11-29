@@ -1,9 +1,12 @@
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import SideBar from './components/SideBar/SideBar';
 
 function App() {
   return (
-    <div>
-      <h1>GTAF UI TEST</h1>
+    <div className="font-inter min-h-screen bg-gray-200">
+      <NavBar />
+      <SideBar />
     </div>
   );
 }
