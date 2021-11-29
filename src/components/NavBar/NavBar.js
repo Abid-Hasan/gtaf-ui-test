@@ -19,16 +19,19 @@ const NavBar = () => {
                             <path d="M3.59456 5.4382C3.79413 5.71473 4.20587 5.71473 4.40544 5.4382L7.75812 0.792603C7.99677 0.461921 7.76048 0 7.35267 0H0.647327C0.239523 0 0.00323534 0.461921 0.241885 0.792603L3.59456 5.4382Z" fill="#3E3F48" />
                         </svg>
                     </a>
-
                 </div>
+
                 {/* Search */}
                 <div className="ml-32 flex items-center ">
                     {/* Search icon */}
                     <svg width="24" height="24" fill="none" class="text-gray-400 group-hover:text-gray-500 transition-colors duration-200 relative left-8"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+
                     {/* Text input */}
                     <input className="bg-gray-200 rounded-lg h-10 w-96 pl-10 text-gray-900" type="text" name="" id="" placeholder="Search" />
                 </div>
             </div>
+
+
             {/* Right part */}
             <div className="flex items-center space-x-4">
                 <a href="#">
@@ -42,6 +45,7 @@ const NavBar = () => {
                     {/* User Image */}
                     <img src={userImage} alt="" />
                 </a>
+
                 <a href="#">
                     {/* Name */}
                     <span>John Doe</span>
