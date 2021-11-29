@@ -22,12 +22,12 @@ const NavBar = () => {
                 </div>
 
                 {/* Search */}
-                <div className="ml-32 flex items-center ">
+                <div className="ml-32 hidden md:flex items-center ">
                     {/* Search icon */}
                     <svg width="24" height="24" fill="none" class="text-gray-400 group-hover:text-gray-500 transition-colors duration-200 relative left-8"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 
                     {/* Text input */}
-                    <input className="bg-gray-200 rounded-lg h-10 w-96 pl-10 text-gray-900" type="text" name="" id="" placeholder="Search" />
+                    <input className="bg-gray-200 rounded-lg h-10 w-72 lg:w-96 pl-10 text-gray-900" type="text" name="" id="" placeholder="Search" />
                 </div>
             </div>
 
