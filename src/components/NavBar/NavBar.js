@@ -48,7 +48,7 @@ const NavBar = () => {
 
                 <a href="#">
                     {/* Name */}
-                    <span>John Doe</span>
+                    <span className="font-medium text-gray-900">John Doe</span>
                 </a>
 
                 <a href="#">{/* Dropdown icon */}
